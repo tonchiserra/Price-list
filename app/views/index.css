@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #262b33;
+    font-family: "bahnschrift", "Helvetica";
+}
+
+header {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    color: #3DD5B4;
+}
+
+h1 {
+    font-size: 36px;
+    padding: 20px;
+}
+
+hr {
+    border: 1px solid #3DD5B4;
+    height: 1px;
+    display: block;
+    margin-bottom: 3%;
+}
+
+.container {
+    font-size: 20px;
+    color: #fff;
+    width: 90%;
+    margin: auto;
+}
+
+.idInfo {
+    font-size: 16px;
+    line-height: 5vh;
+    text-align: center;
+}
+
+.nameInfo {
+    font-size: 16px;
+    line-height: 5vh;
+}
+
+.descriptionInfo {
+    font-size: 16px;
+    line-height: 5vh;
+}
+
+.priceInfo {
+    font-size: 16px;
+    line-height: 5vh;
+}
+
+#footer {
+    background-color: rgb(22, 22, 22);
+    color: #fff;
+    text-align: center;
+    padding: 3%;
+    margin-top: 5%;
+    width: 100%;
+}
+
+#footer strong {
+    text-decoration: none;
+    color: #3DD5B4;
+}
+
+/* -----------Product------------------------- */
+
+
+.totalProduct {
+	display: grid;
+	grid-template-columns: .05fr .45fr .9fr .2fr .1fr .1fr;
+	grid-gap: 1%;
+	width: 100%;
+    background-color: #404753;
+    border-radius: 6px;
+    margin-top: 1%;
+}
+
+.idProduct {
+    font-size: 12px;
+    line-height: 5vh;
+    text-align: center;
+}
+
+.nameProduct {
+    font-size: 24px;
+}
+
+h5 {
+    line-height: 5vh;
+}
+
+.descriptionProduct {
+    font-size: 16px;
+    line-height: 5vh;
+}
+
+.priceProduct {
+    line-height: 5vh;
+}
+
+.delateButton {
+    font-size: 14px;
+    width: auto;
+    height: auto;
+    background-color: #3DD5B4;
+    border: 2px solid #3DD5B4;
+    color: #262b33;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    outline: none;
+    padding: 0;
+}
+
+.delateButton:hover {
+    background-color: transparent;
+    border: 2px solid #3DD5B4;
+    color: #3DD5B4;
+}
+
+.editButton {
+    font-size: 14px;
+    width: auto;
+    height: auto;
+    background-color: #3DD5B4;
+    border: 2px solid #3DD5B4;
+    color: #262b33;
+    outline: none;
+    padding: 0;
+}
+
+.editButton:hover {
+    background-color: transparent;
+    border: 2px solid #3DD5B4;
+    color: #3DD5B4;
+}
+
+/*---------Edit Product ---------------------*/
+
+.totalEditWindow {
+    background-color: #262b33;
+    font-family: "bahnschrift", "Helvetica";
+    text-align: center;
+    border-radius: 10px;
+    width: 600px;
+    height: 550px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -225px;
+    margin-left: -300px;
+    box-shadow: 5px 5px rgba(0, 0, 0, .5);
+}
+
+h1 {
+    color: #3DD5B4;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+hr {
+    border: 1px solid #3DD5B4;
+    height: 1px;
+    width: 90%;
+    margin: auto;
+}
+
+.totalForm {
+    width: 80%;
+    margin: auto;
+}
+
+.formGroup {
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.inputForm {
+    background-color: #404753;
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    padding: 3%;
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+}
+
+.acceptButton {
+    padding: 2.5%;
+    font-size: 18px;
+    width: 100%;
+    background-color: #3DD5B4;
+    border: 2px solid #3DD5B4;
+    color: #262b33;
+    border-radius: 10px;
+    outline: none;
+}
+
+.acceptButton:hover{
+    background-color: #262b33;
+    border: 2px solid #3DD5B4;
+    color: #3DD5B4;
+}
+
+.cancelButton {
+    padding: 2%;
+    font-size: 18px;
+    width: 80%;
+    background-color: #3DD5B4;
+    border: 2px solid #3DD5B4;
+    color: #262b33;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 2.5%;
+}
+
+.cancelButton:hover{
+    background-color: #262b33;
+    border: 2px solid #3DD5B4;
+    color: #3DD5B4;
+}
