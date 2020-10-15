@@ -54,7 +54,7 @@ function chargeProducts(){
                     Edit
                 </button>               
                 <button class="delateButton">
-                    Delate
+                    Delete
                 </button>
             </div>
         `;
